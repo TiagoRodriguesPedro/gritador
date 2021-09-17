@@ -10,7 +10,7 @@ namespace gritador
             Console.WriteLine("digite uma frase");
             frasedigitada = Console.ReadLine();
 
-            Console.WriteLine("frasedigitada.toUpper()");
+            Console.WriteLine(frasedigitada.ToUpper());
         }
     }
 }
